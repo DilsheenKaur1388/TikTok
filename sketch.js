@@ -28,8 +28,8 @@ function draw(){
     push();
     rotate(scAngle); //rotate the hand based on angle calculated
     stroke(255,0,0);
-    strokeWeight(7);
     line(0,0,100,0);
+    strokeWeight(7);
     pop()
 
     //drawing mins hand
